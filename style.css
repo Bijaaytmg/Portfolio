@@ -174,3 +174,46 @@ input:checked + .slider {
 input:checked + .slider:before {
   transform: translateX(26px);
 }
+/* 🌙 Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+body.dark-mode header,
+body.dark-mode footer {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+}
+
+body.dark-mode nav ul li a {
+  color: #f1f1f1;
+}
+
+body.dark-mode nav ul li a:hover {
+  color: #ff9800;
+}
+
+body.dark-mode .project-card {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode form input,
+body.dark-mode form textarea {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+  border: 1px solid #444;
+}
+
+body.dark-mode form button {
+  background: #ff9800;
+  color: #fff;
+}
+
+body.dark-mode h2 {
+  color: #f1f1f1;
+}
+
+
